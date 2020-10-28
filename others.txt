@@ -1,0 +1,80 @@
+// website for html and css template
+html5up.net
+freehtml5.co 
+templated.co 
+startbootstrap.com 
+styleshout.com/free-templates
+zerotheme.com 
+html5xcss3.com 
+bootstraptaste.com 
+
+
+// js library
+tippy.js : is the complete tooltip,popover,dropdown,and menu solution fo the web
+pixijs : 2d sprite rendering html5 creation engine
+revealjs : create beautiful presentation using html
+chart.js : draw charts using html canvas
+three.js : 3d library
+slick.js : fully responsive js carousel library
+sweetalert.js.org
+community.algolia.com : turn any <input> into an address autocomplete
+swipper : mobile touch slider 
+fabric.js : canvas,svg to canvas,can to svg
+aframe : virtual reality
+html2canvas : screenshots with js
+svgo : optimize svg files
+reveal.js : html presentation framework
+leaflet: js library for mobile friendly interactive maps
+uppy: open source file uploader for web browser
+impress.js: presentation framework based on css3 transform
+js pdf : generate pdf files in js
+intro.js : feature intoduction
+
+forms:
+    quill : a cross browser rich text editor with an API
+    cleave.js : help you format input text content        automatically
+
+    jQuery validation plugin
+    selectize.js : the hybrid of a textbox and <select> box
+    parsley.js : validate your forms,frontend without writing single line of js
+
+    fine uploader : multiple file upload plugin with progress bar,drag and dropdown
+
+    pickadate.js : lightweight jQuery date selector with multi language support
+
+
+games : 
+    pixi.js
+    phaser
+    babylon.js
+    matter js 
+    egret core 
+    melon js 
+    crafty
+
+audio: 
+    howler.js
+    tone.js : interactive music in browser
+    wavesurfer.js : navigable waveform built on web audio and canvas
+    sound manager 2
+    amplitutdejs : design media control
+    vexflow : render music rotaion and guitar tablature
+    sound js : working with audio
+
+video: 
+    video.js : universal video embed
+    plyr : a simple html5,youtube and vimeo player 
+    jplayer : html5 audio and video for jQuery
+    fit vid.js : jQuery plugin 
+    vide : jQuery plugin for video background
+    flowplayer : html5 video player 
+    popcorn js : html5 media framework
+
+animation: 
+    anime.js : js animatin engine
+    velocity: accelerated js animation 
+    popmotion : js motion engine. use for animation physics and input tracking
+    aos : animate on scroll 
+    mo.js : motion graphics 
+    scrollreveal
+    skrollr : stand-alone parallax scrolling for mobile and desktop
