@@ -1,14 +1,16 @@
-// access the property of an object
-objectName.key; //person.age
-or;
-objectName['key']; // person['age']
+// ACCESS THE PROP OF AN OBJ
+objectName.key; or objectName['key'];
 
-// add new props
+// ADD NEW PROPS
 objectName.newPropName = value;
 //delete
 delete person.age;
 
-// bind,call,apply
+let key = Object.keys(numbers); // ['one','two']
+let value = Object.values(numbers); // [1,2]
+let entry = Object.entries(numbers) // [['one': 1],['two': 2]]
+
+// BIND,CALL,APPLY METHOD
 let person = {
   fullName() {
     return this.firstName + ' ' + this.lastName;
@@ -23,7 +25,7 @@ let person1 = {
 person.fullName.call(person1)
 // Mehedi Hasan Antor
 
-// dynamic props in obj
+// DYNAMIC PROPS IN OBJ
 let dynamic = 'value';
 let user = {
     id: 1,
