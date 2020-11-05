@@ -47,11 +47,12 @@ node.classList.toggle('class-name')
 node.classList.contains('app') // true if app present
 node.classList.replace('old','new')
 
-// ***************** Remove Node **************
+// ***************** Remove / Replace Node **************
 childNode.remove()
 parentNode.removeChild(nodeToRemove)
 
 app.replaceChild()
+el.replaceWith()
 
 // ************* Positioning ******************
 h1.insertAdjacentHTML('beforebegin', '<span>cool</span>')
