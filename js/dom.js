@@ -20,16 +20,46 @@ let text = document.createTextNode('I love it')
 node.cloneNode()
 node.textContent = 'some text here'
 
-// ******************* Add node to document***************
-parentNode.appendChild(nodeToAdd)
+// ******************* Add node to document/Insert/ Remove ***************
+node.append(p)
+node.append('hi')
+node.append('hi',p)
+node.appendChild(nodeToAdd)
+
+node.prepend(p)
+node.prepend('hi')
+node.prepend('hi',p)
 parentNode.insertBefore(nodeToAdd, childNode)
 
+node.after(p) //as a sibling
+node.after('hi')
+node.after(p,'hi.)
+target.insertAdjacentElement('afterend', element);
+           
+node.before() //as a sibling
+node.before('hi')
+node.before(p,'hi')
+target.insertAdjacentElement('beforebegin', element);
+           
+childNode.remove()
+parentNode.removeChild(nodeToRemove)
+
+app.replaceChild(newChild, oldChild)
+el.replaceWith()
+// ************* Positioning ******************
+h1.insertAdjacentHTML('beforebegin', '<span>cool</span>')
+// beforebegin => placed before h1 as a sibling
+// afterbegin => placed inside h1 as a first child
+// beforeend => placed inside h1 as a last child
+// afterend => placed after h1 as a sibling
+
 // ***************** Get element details *****************
+node.parentElement  
+node.children
 node.nextElementSibling
+node.previousElementSibling
 node.firstElementChild
 node.lastElementChild 
-node.parentElement 
-node.children 
 
 // ********************** Modify Element ****************
 node.style.color = 'red'
@@ -44,22 +74,8 @@ node.classList
 node.classList.add('class-name',...) 
 node.classList.remove('class-name',...)
 node.classList.toggle('class-name')
-node.classList.contains('app') // true if app present
+node.classList.contains('app') // =>true if app present
 node.classList.replace('old','new')
-
-// ***************** Remove / Replace Node **************
-childNode.remove()
-parentNode.removeChild(nodeToRemove)
-
-app.replaceChild()
-el.replaceWith()
-
-// ************* Positioning ******************
-h1.insertAdjacentHTML('beforebegin', '<span>cool</span>')
-// beforebegin => placed before h1 as a sibling
-// afterbegin => placed inside h1 as a first child
-// beforeend => placed inside h1 as a last child
-// afterend => placed after h1 as a sibling
 
 // Events **********
 node.addEventListener('event-name', cb)
