@@ -21,22 +21,22 @@ node.cloneNode()
 node.textContent = 'some text here'
 
 // ******************* Add node to document/Insert/ Remove ***************
-node.append(p)
+node.append(p) // after the sibling/childs of parent/lastchild
 node.append('hi')
 node.append('hi',p)
 node.appendChild(nodeToAdd)
 
-node.prepend(p)
+node.prepend(p) // before the sibling / childs of parent/firstchild
 node.prepend('hi')
 node.prepend('hi',p)
 parentNode.insertBefore(nodeToAdd, childNode)
 
-node.after(p) //as a sibling
+node.after(p) // after the parent
 node.after('hi')
 node.after(p,'hi.)
 target.insertAdjacentElement('afterend', element);
            
-node.before() //as a sibling
+node.before() // before the parent
 node.before('hi')
 node.before(p,'hi')
 target.insertAdjacentElement('beforebegin', element);
